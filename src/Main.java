@@ -9,7 +9,7 @@ public class Main {
         float[] scores = {7f, 2.5f,8.9f,10.0f,18.5f};
         Arrays.sort(scores);
         System.out.println("El array ordenado es: ");
-        for (int i=0; i<scores.length;i++){
+        for (int i=0; i<5;i++){
             System.out.print(scores[i]+" ");
         }
         System.out.println();
